@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Registro"
+            android:textSize="28dp"
+            android:textStyle="bold"/>
+
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="360dp"
+            android:layout_height="50sp"
+            android:layout_marginTop="30sp"
+            android:hint="Nombre" />
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="360dp"
+            android:layout_height="50sp"
+            android:hint="Teléfono"/>
+
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="360dp"
+            android:layout_height="50sp"
+            android:hint="Correo electrónico"
+            />
+
+        <EditText
+            android:id="@+id/etPlatica"
+            android:layout_width="360dp"
+            android:layout_height="50sp"
+            android:hint="Plática a impartir"
+            />
+
+        <ImageView
+            android:layout_width="202dp"
+            android:layout_height="213dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/robot2" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp"
+            android:layout_gravity="center_horizontal"
+            android:text="Registrar para impartir conferencia" />
+
+
+
+</LinearLayout>
+
+
+
